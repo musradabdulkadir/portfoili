@@ -97,8 +97,8 @@ nav ul a:hover {
 
 
 img {
-    width: 450px;
-    height: 450px;
+    width: auto;
+    height: auto;
     border-radius: 50%;
     border: 7px solid #ae2012;
     transition: 0.3s;
