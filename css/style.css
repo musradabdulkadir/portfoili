@@ -199,12 +199,13 @@ img:hover {
 }
 
 .main-form button:hover {
-    background-color: #ced4da;
+    /* background-color: #ced4da; */
+    background: linear-gradient(to right,#bc8181, #ae2012,#bc8181);
     font-weight: 550;
-
-    color: #212529;
+    color: #ced4da;
     border: 1px solid #212529;
     box-shadow: 2px 2px 5px #212529;
+    transition: .3s;
 }
 
 /* footer */
