@@ -286,6 +286,11 @@ footer {
   #form-legend {
     font-size: 25px;
   }
+
+    /* footer  */
+  footer{
+    font-size: 13px;
+  }
 }
 
 /* TABLET (768px - 1024px) */
