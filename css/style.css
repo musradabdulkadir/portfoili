@@ -214,3 +214,78 @@ footer {
     font-family: ubuntu;
     font-size: 20px;
 }
+
+/* MEDIA QUERY  */
+
+/* MOBILE (max-width: 768px) */
+@media (max-width: 768px) {
+
+  body {
+    margin: 15px;
+  }
+
+  /* Header */
+  header {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .para {
+    font-size: 16px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+    font-size: 18px;
+    align-items: center;
+  }
+
+  /* About Section */
+  .about {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  img:hover {
+    width: 220px;
+    height: 220px;
+  }
+
+  .content {
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  /* Projects */
+  .pro ul li {
+    font-size: 16px;
+  }
+
+  /* Form */
+  .main-form {
+    width: 100%;
+  }
+
+  .form-inp,
+  .main-form button {
+    width: 100%;
+  }
+
+  #form-legend {
+    font-size: 25px;
+  }
+}
+
+
